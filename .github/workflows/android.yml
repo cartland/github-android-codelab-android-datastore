@@ -1,6 +1,7 @@
 name: Android CI
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master, preferences_datastore, proto_datastore ]
   pull_request:
